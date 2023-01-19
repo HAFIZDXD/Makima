@@ -4,16 +4,16 @@ import fs from 'fs'
 let handler = async (m, { conn, command, text }) => {
   let name = await conn.getName(m.sender)
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-  let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
+  let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/abced75f646b5b2f49939.jpg")
   let motivasii = pickRandom(global.motivasi)
   let flaa = pickRandom(global.flaaaaa)
-await conn.sendButton(m.chat, `${motivasii}\n`,wm + '\n\n' + botdate, `${flaa}Motivasi`, [['NEXT','.motivasi']], m, {
+await conn.sendButton(m.chat, `${motivasii}\n`,wm + '\n\n' + botdate, `${flaa}Motivasi`, [['Lanjut🗿','.motivasi']], m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
                         sourceUrl: 'https://youtu.be/pwLZpdfO8AU',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ 𝙃𝙖𝙛𝙞𝙯𝙙𝙓𝘿𝙓𝘿`,
                         title: global.namebot,
-                        body: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
+                        body: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ 𝙃𝙖𝙛𝙞𝙯𝙙𝙓𝘿𝙓𝘿`,          previewType: 0,
                         thumbnail: await (await fetch(giflogo2)).buffer(),
                         mediaUrl: 'https://youtu.be/pwLZpdfO8AU'
                         
