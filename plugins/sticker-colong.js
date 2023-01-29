@@ -9,7 +9,7 @@ try {
     if (/image|video/.test(mime)) {
       let img = await q.download()
       if (!img) throw 'Reply stiker nya!'
-      stiker = await sticker(img, false, 'By', 'NexBotz')
+      stiker = await sticker(img, false, '𝘽𝙮', '𝙃𝙖𝙛𝙞𝙯𝙙𝙓𝘿')
     } else if (args[0]) stiker = await sticker(false, args[0], 'By', 'NexEp')
   } finally {
     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
