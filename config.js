@@ -111,7 +111,7 @@ global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: $
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `MakimaBotz | ʙʏ ${global.nameown}`
 global.author = 'HafizdXD' 
-global.packname = 'Haf8zdXD'
+global.packname = 'By'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 global.ultahowner = 'Juli 4 2023'
 
